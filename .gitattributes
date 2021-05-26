@@ -1,0 +1,2 @@
+bedroom/* filter=lfs diff=lfs merge=lfs -text
+panther/* filter=lfs diff=lfs merge=lfs -text
