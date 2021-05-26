@@ -2,7 +2,9 @@
 
 Physically Based Rendering Scenes
 
-This repository combines scenes from multiple source. All materials are based on [Disney](https://media.disneyanimation.com/uploads/production/publication_asset/48/asset/s2012_pbs_disney_brdf_notes_v3.pdf) BRDF. The scene description is based on [Tinsel](https://github.com/mmacklin/tinsel) project.
+This repository combines scenes from multiple source primaly for the project [PBRVulkan](https://github.com/Zielon/PBRVulkan).
+
+All materials are based on [Disney](https://media.disneyanimation.com/uploads/production/publication_asset/48/asset/s2012_pbs_disney_brdf_notes_v3.pdf) BRDF. The scene description is based on [Tinsel](https://github.com/mmacklin/tinsel) project.
 
 
 Example of scene description
