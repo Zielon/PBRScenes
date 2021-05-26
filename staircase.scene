@@ -1,0 +1,282 @@
+Renderer
+{
+	resolution 640 800
+	maxDepth 3
+	tileWidth 100
+	tileHeight 100
+}
+
+Camera
+{
+	position 0.05555139 1.73679901 4.94515045
+	lookAt 0.05555139 1.73679901 0.93515045
+	fov 42
+}
+
+material WoodFloor
+{
+	albedoTexture staircase/textures/WoodFloor.png
+	roughness 0.1
+}
+
+material Wallpaper
+{
+	albedoTexture staircase/textures/Wallpaper.png
+}
+
+material WoodStairs
+{
+	albedoTexture staircase/textures/WoodPanel.png
+	roughness 0.1
+}
+
+material WhitePaint
+{
+	color 0.578596 0.578596 0.578596
+}
+
+material MagnoliaPaint
+{
+	color 0.578596 0.578596 0.578596
+}
+
+material Painting1
+{
+	albedoTexture staircase/textures/Painting1.png
+}
+
+material Painting2
+{
+	albedoTexture staircase/textures/Painting2.png
+}
+
+
+material Painting3
+{
+	albedoTexture staircase/textures/Painting3.png
+}
+
+material Gold
+{
+	color 1.0 0.95 0.35
+	metallic 1.0
+	roughness 0.05
+}
+
+material WoodChair
+{
+	albedoTexture staircase/textures/WoodChair.png
+	roughness 0.1
+}
+
+
+material ChairSeat
+{
+	color 0.117647 0.054902 0.0666667
+	roughness 0.1
+}
+
+
+material WoodLamp
+{
+	albedoTexture staircase/textures/WoodChair.png
+	0.1
+}
+
+material Brass
+{
+	color 0.27 0.254 0.15
+	metallic 1.0
+	roughness 0.01
+}
+
+material StainlessSteel
+{
+	color 1.0 1.0 1.0
+	metallic 1.0
+	roughness 0.1
+}
+
+material WhitePlastic
+{
+	color 1.0 1.0 1.0
+}
+
+material Lampshade
+{
+	albedoTexture staircase/textures/Fabric.png
+}
+
+material Black
+{
+	color 0.01 0.01 0.01
+}
+
+material BrushedAluminium
+{
+	albedoTexture staircase/textures/BrushedAluminium.png
+	metallic 1.0
+	roughness 0.01
+}
+
+material Glass
+{
+	color 1.0 1.0 1.0
+	transmission 1.0
+	ior 1.45
+	roughness 0.0
+}
+
+material Candles
+{
+	color 1.0 1.0 1.0
+}
+
+mesh
+{
+	file staircase/Black.obj
+	material Black
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/Brass.obj
+	material Brass
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/BrushedAluminium.obj
+	material BrushedAluminium
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/Candles.obj
+	material Candles
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/ChairSeat.obj
+	material ChairSeat
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/Glass.obj
+	material Glass
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/Gold.obj
+	material Gold
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/Lampshade.obj
+	material Lampshade
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/MagnoliaPaint.obj
+	material MagnoliaPaint
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/Painting1.obj
+	material Painting1
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/Painting2.obj
+	material Painting2
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/Painting3.obj
+	material Painting3
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/StainlessSteel.obj
+	material StainlessSteel
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/Wallpaper.obj
+	material Wallpaper
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/WhitePaint.obj
+	material WhitePaint
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/WhitePlastic.obj
+	material WhitePlastic
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/WoodChair.obj
+	material WoodChair
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/WoodFloor.obj
+	material WoodFloor
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/WoodLamp.obj
+	material WoodLamp
+	scale 0.01 0.01 0.01
+}
+
+mesh
+{
+	file staircase/WoodStairs.obj
+	material WoodStairs
+	scale 0.01 0.01 0.01
+}
+
+light
+{
+	position .52514355 7.15686951 -2.72620972
+	v1 .52514355 7.15686829 -.58847202
+	v2 -1.52514355 7.15686951 -2.72620972
+	emission 50 50 50
+	type Quad
+}

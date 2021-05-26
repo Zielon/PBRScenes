@@ -1,0 +1,120 @@
+Renderer
+{
+	resolution 1280 720
+	maxDepth 2
+	tileWidth 240
+	tileHeight 144
+}
+
+Camera
+{
+	position 0.3 0.11 0.0
+	lookAt 0.0 0.07 0.0
+	fov 60
+}
+
+material head
+{
+	color 1.0 1.0 1.0 
+	albedoTexture Figurine/textures/01_Head_Base_Color.png
+	metallicRoughnessTexture Figurine/textures/01_Head_MetallicRoughness.png
+	normalTexture Figurine/textures/01_Head_Normal_DirectX.png
+}
+
+material body
+{
+	color 1.0 1.0 1.0
+	albedoTexture Figurine/textures/02_Body_Base_Color.png
+	metallicRoughnessTexture Figurine/textures/02_Body_MetallicRoughness.png
+	normalTexture Figurine/textures/02_Body_Normal_DirectX.png
+}
+
+material base
+{
+	color 1.0 1.0 1.0 
+	roughness 0.035
+	albedoTexture Figurine/textures/03_Base_Base_Color.png
+	metallicRoughnessTexture Figurine/textures/03_Base_MetallicRoughness.png
+	normalTexture Figurine/textures/03_Base_Normal_DirectX.png
+}
+
+material grid
+{
+	color 1.0 1.0 1.0
+	roughness 0.5
+	metallic 0.0
+	albedoTexture Figurine/textures/grid.jpg
+}
+
+mesh
+{
+	name Background
+	file Figurine/background.obj
+	material grid
+}
+
+mesh
+{
+	name Head1
+	file Figurine/head.obj
+	material head
+	position 0.017 0.107 -0.05
+}
+
+mesh
+{
+	name Body1
+	file Figurine/body.obj
+	material body
+	position 0 0.049 -0.05
+}
+
+mesh
+{
+	name Base1
+	file Figurine/base.obj
+	material base
+	position 0 0.0075 -0.05
+}
+
+mesh
+{
+	name Head2
+	file Figurine/head.obj
+	material head
+	position 0.017 0.107 0.05
+}
+
+mesh
+{
+	name Body2
+	file Figurine/body.obj
+	material body
+	position 0 0.049 0.05
+}
+
+mesh
+{
+	name Base2
+	file Figurine/base.obj
+	material base
+	position 0 0.0075 0.05
+}
+
+light
+{
+	position -0.103555 0.284840 0.606827
+	v1 -0.103555 0.465656 0.521355
+	v2 0.096445 0.284840 0.606827
+	emission 40 41 41
+	type Quad
+}
+
+light
+{
+	position 0.303145 0.461806 -0.450967
+	v2 0.447143 0.461806 -0.306465
+	v1 0.362568 0.280251 -0.510182
+	emission 40 41 41
+	type Quad
+}

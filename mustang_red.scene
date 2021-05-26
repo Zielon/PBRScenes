@@ -1,0 +1,152 @@
+Renderer
+{
+	resolution 1280 720
+	maxDepth 7
+	tileWidth 256
+	tileHeight 144
+	envMap HDR/peppermint_powerplant_4k.hdr
+	hdrMultiplier 1.411
+	enableRR True
+	RRDepth 2
+}
+
+Camera
+{
+	position 7.3 2.2 9.6
+	lookAt -0.3 0.4 0
+	fov 22
+}
+
+material floor
+{
+	color 0.0 0.0 0.0
+	roughness 1.0
+}
+
+material black
+{
+	color 0.008 0.008 0.008
+	roughness 1.0
+}
+
+material chrome
+{
+	color 0.9 0.9 0.9
+	roughness 0.0
+	metallic 1.0
+}
+
+material glass
+{
+	color 1.0 1.0 1.0
+	roughness 0.0
+	transmission 1.0
+	ior 1.45
+}
+
+material headlight
+{
+	color 1.0 1.0 1.0
+	roughness 0.1
+	transmission 1.0
+	ior 1.45
+}
+
+material yellow_blinkers
+{
+	color 1.0 0.28 0.122
+	roughness 0.156
+	transmission 1.0
+	ior 1.45
+}
+
+material red_taillight
+{
+	color 0.581 0.009 0.009
+	roughness 0.0
+	metallic 0.738
+}
+
+material paint
+{
+	color 0.82 0.0 0.0
+	roughness 0.0
+	metallic 0.2
+	clearcoat 1.0
+}
+
+material red_interior
+{
+	color 0.2 0.02 0.02
+	roughness 0.5
+}
+
+material tyres
+{
+	color 0.008 0.008 0.008
+	roughness 0.5
+}
+
+mesh
+{
+	file Mustang/Black.obj
+	material black
+}
+
+mesh
+{
+	file Mustang/Body.obj
+	material paint
+}
+
+mesh
+{
+	file Mustang/Chrome.obj
+	material chrome
+}
+
+mesh
+{
+	file Mustang/Floor.obj
+	material floor
+}
+
+mesh
+{
+	file Mustang/Front_Blinkers.obj
+	material yellow_blinkers
+}
+
+mesh
+{
+	file Mustang/Glass.obj
+	material glass
+}
+
+mesh
+{
+	file Mustang/Lights.obj
+	material headlight
+}
+
+mesh
+{
+	file Mustang/Red_Interior.obj
+	material red_interior
+}
+
+mesh
+{
+	file Mustang/Tail_Lights.obj
+	material red_taillight
+}
+
+mesh
+{
+	file Mustang/Tyres.obj
+	material tyres
+}
+
+
+
+

@@ -1,0 +1,45 @@
+Renderer
+{
+	resolution 1280 720
+	maxDepth 8
+	tileWidth 256
+	tileHeight 144
+	envMap HDR/sunset.hdr
+	hdrMultiplier 5.0
+	enableRR True
+	RRDepth 3
+}
+
+Camera
+{
+	position -35.0 12.0 -26.0
+	lookAt 0 7 0
+	fov 60
+}
+
+material glass
+{
+	color 1.0 1.0 1.0
+	extinction 0.905 0.63 0.3
+	roughness 0.1
+	ior 1.45
+	transmission 1.0
+}
+
+mesh
+{
+	name Glass
+	file dragon/dragon.obj
+	material glass
+	position 0 0 0
+	scale 1 1 1
+}
+
+#light
+{
+	emission 80.0 80.0 80.0
+	position 0 390.0 -439.0
+	radius 60.0
+	type Sphere
+}
+

@@ -1,0 +1,29 @@
+Renderer
+{
+	resolution 1280 720
+	maxDepth 3
+	tileWidth 320
+	tileHeight 180
+	#envMap HDR/sunset.hdr
+	#hdrMultiplier 5.0
+}
+Camera
+{
+	position 0 0 10
+	lookAt 0 0 0
+	fov 60
+}
+
+
+material glass
+{
+	color 1.0 1.0 1.0
+	roughness 0.0
+	transmission 1.0
+}
+
+mesh
+{
+	file furnace/sphere.obj
+	material glass
+}
