@@ -2,9 +2,26 @@
 
 Physically Based Rendering Scenes
 
-This repository combines scenes from multiple source. All materials are based on [Disney](https://media.disneyanimation.com/uploads/production/publication_asset/48/asset/s2012_pbs_disney_brdf_notes_v3.pdf) BRDF which were adapted by [GLSL-PathTracer](https://github.com/knightcrawler25/GLSL-PathTracer).
+This repository combines scenes from multiple source. All materials are based on [Disney](https://media.disneyanimation.com/uploads/production/publication_asset/48/asset/s2012_pbs_disney_brdf_notes_v3.pdf) BRDF. The scene description is based on [Tinsel](https://github.com/mmacklin/tinsel) project.
 
-The orignal source can be find [here](https://drive.google.com/file/d/1UFMMoVb5uB7WIvCeHOfQ2dCQSxNMXluB/view) from GLSL-PathTracer project.
+
+Example of scene description
+```
+material red
+{
+	color 0.63 0.065 0.05
+}
+
+mesh
+{
+	file cornell_box/cbox_redwall.obj
+	material red
+	position .5536 .2744 .2796
+	scale 0.01 0.01 0.01
+}
+```
+
+The orignal source can be find [here](https://drive.google.com/file/d/1UFMMoVb5uB7WIvCeHOfQ2dCQSxNMXluB/view) in [GLSL-PathTracer](https://github.com/knightcrawler25/GLSL-PathTracer) project.
 
 ### Disney
 
