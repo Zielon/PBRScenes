@@ -1,9 +1,7 @@
 Renderer
 {
-	resolution 1280 720
+	resolution 1920 1080
 	maxDepth 6
-	tileWidth 256
-	tileHeight 144
 }
 
 Camera

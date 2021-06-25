@@ -1,14 +1,12 @@
 Renderer
 {
-	resolution 1280 720
+	resolution 1920 1080
 	maxDepth 2
-	tileWidth 240
-	tileHeight 144
 }
 
 Camera
 {
-	position 0.3 0.11 0.0
+	position 0.3 0.11 0.1
 	lookAt 0.0 0.07 0.0
 	fov 60
 }
@@ -58,7 +56,7 @@ mesh
 	name Head1
 	file Figurine/head.obj
 	material head
-	position 0.017 0.107 -0.05
+	position 0.017 0.107 0.025
 }
 
 mesh
@@ -66,7 +64,7 @@ mesh
 	name Body1
 	file Figurine/body.obj
 	material body
-	position 0 0.049 -0.05
+	position 0 0.049 0.025
 }
 
 mesh
@@ -74,31 +72,7 @@ mesh
 	name Base1
 	file Figurine/base.obj
 	material base
-	position 0 0.0075 -0.05
-}
-
-mesh
-{
-	name Head2
-	file Figurine/head.obj
-	material head
-	position 0.017 0.107 0.05
-}
-
-mesh
-{
-	name Body2
-	file Figurine/body.obj
-	material body
-	position 0 0.049 0.05
-}
-
-mesh
-{
-	name Base2
-	file Figurine/base.obj
-	material base
-	position 0 0.0075 0.05
+	position 0 0.0075 0.025
 }
 
 light

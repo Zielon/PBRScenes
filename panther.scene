@@ -1,9 +1,7 @@
 Renderer
 {
-	resolution 1280 720
+	resolution 1920 1080
 	maxDepth 3
-	tileWidth 100
-	tileHeight 100
 }
 
 Camera
@@ -18,7 +16,7 @@ Camera
 material orange
 {
 	color 0.8 0.289 0.006
-	roughness 0.2
+	roughness 0.1
 }
 
 mesh

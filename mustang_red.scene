@@ -1,13 +1,9 @@
 Renderer
 {
-	resolution 1280 720
+	resolution 1920 1080
 	maxDepth 7
-	tileWidth 256
-	tileHeight 144
 	envMap HDR/peppermint_powerplant_4k.hdr
 	hdrMultiplier 1.411
-	enableRR True
-	RRDepth 2
 }
 
 Camera

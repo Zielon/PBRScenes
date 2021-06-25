@@ -1,18 +1,15 @@
+Renderer
+{
+	resolution 1920 1080
+	maxDepth 3
+}
+
 Camera
 {
 	position -4.5 1.6 0.0
 	lookAt 0.0 0.8 0.0
 	fov 60
 }
-
-Renderer
-{
-	resolution 1280 720
-	maxDepth 3
-	tileWidth 256
-	tileHeight 144
-}
-
 
 material BlackPlastic
 {

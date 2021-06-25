@@ -1,9 +1,7 @@
 Renderer
 {
-	resolution 800 800
+	resolution 1200 1200
 	maxDepth 2
-	tileWidth 200
-	tileHeight 200
 	#envMap HDR/sunset.hdr
 	hdrMultiplier 2.0
 }
