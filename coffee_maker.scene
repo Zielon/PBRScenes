@@ -1,6 +1,6 @@
 Renderer
 {
-	resolution 1000 1200
+	resolution 800 1000
 	maxDepth 5
 }
 

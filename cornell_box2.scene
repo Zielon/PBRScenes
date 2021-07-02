@@ -1,6 +1,6 @@
 Renderer
 {
-	resolution 1200 1200
+	resolution 1080 1080
 	maxDepth 4
 	#envMap HDR/sunset.hdr
 	#hdrMultiplier 2.0
